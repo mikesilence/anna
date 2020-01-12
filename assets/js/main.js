@@ -5,7 +5,7 @@
 **********************************************************************************/
 
 /**************************************************************
-	
+
 	STYLESHEET INDEXING
 	|
 	|
@@ -64,14 +64,14 @@
 				var off = elm.offset();
 				var l = off.left - $('body').offset().left;
 				var w = elm.width();
-	
+
 				if( elm.find('ul').length ){
 					w = elm.width() * 2;
 				}
-	
+
 				var docW = $('body').width();
 				var isEntirelyVisible = (l + w <= docW);
-	
+
 				if (!isEntirelyVisible) {
 					$(this).addClass('overflow-element');
 				} else {
@@ -92,8 +92,8 @@
 		meanMenuContainer: '.mobile-menu',
 		onePage: true
 	});
-	
-	
+
+
 
 	/* Hero Slider Active */
 	$('.heroslider-area').slick({
@@ -119,7 +119,7 @@
 		centerMode: false,
 		dots: false,
 		autoplay: true,
-		arrows: false,
+		arrows: true,
 		prevArrow: '<button class="in-sliderarrow-arrow in-sliderarrow-prev"><i class="zmdi zmdi-chevron-left"></i></button>',
 		nextArrow: '<button class="in-sliderarrow-arrow in-sliderarrow-next"><i class="zmdi zmdi-chevron-right"></i></button>',
 		adaptiveHeight: true,
@@ -168,16 +168,16 @@
 		]
 	});
 
-    
-    
-    
+
+
+
 	/* Partners Slider Active */
     var partnersSlider = $('.partners-slider-active');
     partnersSlider.on('init afterChange', function(e){
 		$(this).find('.slick-slide.slick-active').last().addClass('last-elem');
 		$(this).find('.slick-slide.slick-active.slick-current').removeClass('first-elem last-elem');
 	});
-    
+
     partnersSlider.slick({
 		infinite: true,
 		slidesToShow: 5,
@@ -213,8 +213,8 @@
 			}
 		]
 	});
-    
-  
+
+
 
 	/* Team Slider Active */
 	$('.team-member-slider').slick({
@@ -288,7 +288,7 @@
 		arrows: false,
         adaptiveHeight: true
 	});
-    
+
      /*--
     Accordion
     -------------------------*/
@@ -299,8 +299,8 @@
       },
       close: function() {
         this.slideUp(300);
-      }		
-    });	
+      }
+    });
 
 	/* Match Height */
 	$('.heightmatch').matchHeight();

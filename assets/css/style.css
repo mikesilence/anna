@@ -1,5 +1,5 @@
 /**************************************************************
-	
+
 	STYLESHEET INDEXING
 	|
 	|
@@ -33,8 +33,8 @@
 	|
 	|
 	|___Blocks Styles
-	|	|___ Header 
-	|	|___ Navigation 
+	|	|___ Header
+	|	|___ Navigation
 	|	|___ Heroslider
 	|	|___ About Styles
 	|	|___ Testimonial
@@ -3117,7 +3117,7 @@ select {
 .in-blog-authorimage::before {
   content: "";
   position: absolute;
-  left: 30px;
+  /* left: 30px; */
   top: 50%;
   height: 1px;
   width: 100%;
@@ -3138,6 +3138,7 @@ select {
   width: 100%;
 }
 .in-blog-metabottom {
+  padding-top: 16px;
   font-size: 0;
   display: flex;
   justify-content: space-between;
@@ -5163,7 +5164,7 @@ select {
 
 .footer-inner {
   background: rgba(22, 57, 99, 0.95) url(../images/bg/footer-bg-dots.png);
-  padding-top: 155px;
+  /* padding-top: 155px; */
 }
 
 .footer-widgets {

@@ -7,3 +7,15 @@
 	Note: This is custom css.
 
 **********************************************************************************/
+
+.slick-arrow {
+    opacity: 1;
+}
+
+.slick-arrow.in-sliderarrow-next {
+    right: -12px;
+}
+
+.slick-arrow.in-sliderarrow-prev {
+    left: -12px;
+}
