@@ -1,0 +1,42 @@
+/**
+ * Brand
+ */
+
+.single-partners {
+    border-right: 1px solid #ddd;
+    &.last-elem {
+        border-right: none;
+    }
+    
+}
+.single-partners.slick-slide.slick-current.slick-active {
+    border-left: 1px solid #ddd !important;
+}
+.partners-slider-active {
+    margin-top: 30px;
+    
+    .slick-dots {
+        bottom: -50px;
+    }
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+
+    }
+    .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: $theme-color;
+        border-radius: 50px;
+    }
+    .slick-dots li.slick-active button {
+        background: $secondary-color;
+    }
+    .slick-dots li button::before {
+        font-size: 0px
+    }
+
+}
+
+
