@@ -2136,8 +2136,9 @@ select {
  */
 .roundbox {
   position: relative;
-  height: 320px;
-  width: 320px;
+  height: 225px;
+  width: 225px;
+  vertical-align: top;
 }
 .roundbox:before {
   content: "";
@@ -2182,7 +2183,7 @@ select {
   color: #ffffff;
   margin-bottom: 0;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 .roundbox-icon {
   height: 80px;
@@ -2199,6 +2200,7 @@ select {
   .roundbox {
     height: 225px;
     width: 225px;
+    vertical-align: top;
   }
   .roundbox-block h5 {
     font-size: 15px;
@@ -2224,6 +2226,7 @@ select {
     left: inherit !important;
     top: inherit !important;
     margin-top: 30px;
+    width: 20%;
   }
   .roundbox-block:not(:last-child) {
     margin-right: 30px;
@@ -2244,10 +2247,10 @@ select {
     left: inherit !important;
     top: inherit !important;
     margin-top: 20px;
-    min-width: 120px;
+    width: 45%;
   }
   .roundbox-block:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 15px;
   }
   .roundbox-block h5 {
     margin-top: 15px;
@@ -2883,7 +2886,7 @@ select {
   line-height: 1;
 }
 .counterbox-block h6 {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
 }
 .counterbox-block:nth-child(1), .counterbox-block:nth-child(2) {
@@ -2904,7 +2907,7 @@ select {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .counterbox {
-    padding: 30px;
+    padding: 30px 250px;
   }
   .counterbox-block {
     min-width: 180px;
@@ -4093,7 +4096,7 @@ select {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .in-sliderarrow-arrow {
-    top: auto;
+    top: 200px;
     bottom: 15px;
     visibility: visible;
     opacity: 1;
@@ -4104,12 +4107,12 @@ select {
   }
   .in-sliderarrow-next {
     right: auto;
-    left: calc(50% + 10px);
+    left: calc(100% - 25px);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .in-sliderarrow-arrow {
-    top: auto;
+    top: 220px;
     bottom: 15px;
     height: 35px;
     line-height: 33px;
@@ -4124,7 +4127,7 @@ select {
   }
   .in-sliderarrow-next {
     right: auto;
-    left: calc(50% + 10px);
+    left: calc(100% - 25px);
   }
 }
 @media only screen and (max-width: 767px) {
@@ -4144,7 +4147,7 @@ select {
   }
   .in-sliderarrow-next {
     right: auto;
-    left: calc(50% + 10px);
+    left: calc(100% - 30px);
   }
 }
 

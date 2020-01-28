@@ -19,3 +19,44 @@
 .slick-arrow.in-sliderarrow-prev {
     left: -12px;
 }
+
+.logo-text-container {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+
+.logo-text-big {
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.logo-text-small {
+    font-size: 12px;
+    line-height: 15px;
+    position: relative;
+    margin-left: -8px;
+}
+
+.logo-text-small:before,
+.logo-text-small:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-top: 4px solid #2b2b2b;
+    width: 30px;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.logo-text-small:after {
+    right: 0;
+}
