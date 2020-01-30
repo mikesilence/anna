@@ -60,3 +60,9 @@
 .logo-text-small:after {
     right: 0;
 }
+
+@media only screen and (max-width: 767px) {
+    .slick-arrow.in-sliderarrow-prev {
+        left: 5px;
+    }
+}
