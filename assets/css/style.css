@@ -5173,7 +5173,7 @@ select {
 
 .footer-inner {
   background: rgba(22, 57, 99, 0.95) url(../images/bg/footer-bg-dots.png);
-  /* padding-top: 155px; */
+  padding-top: 80px;
 }
 
 .footer-widgets {
